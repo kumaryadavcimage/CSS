@@ -1,0 +1,35 @@
+Q. How Js handle the sync and async tasks ??
+- Js is single threaded language but other language you can't incinate the multiple threaded parallel processing
+
+// syncronise
+console.log("start")
+for(int i=0;i<1000000000;i++){
+    // anything
+}
+console.log("End")
+
+// Asynchronise
+console.log("start")
+setTimeout(() =>{},500)
+console.log("End")
+
+- function like setTimeout, setInterval, getElementById etc are not part of native part of Js, Depending on Enviroment capability can change
+
+# Runtime Enviroment : 
+Node Js is also Runtime Enviroment not the framework
+JS is capality that collabreate the run time Enviroment
+
+- Browser : Browser Provide the lots of thing and capability like getElementById,getElementByClass,setTimeout,setInterval,XML Http request Menas different type of Runtime Enviroment different types of capability to javaScript
+
+- document.getElementById("_-R9faeTKGdyp4-EP1NbzkAQ_43")
+
+# js two types 1st Native feature  and Runtime
+- Because JS is single threaded, every natives piecs of code will always execute on the main thread and it will be always sync is native ex. if you have a time
+
+consuming piece of code written by native js feature then it will be blocking 
+
+- JS Native : sync(step by step,line by line execute ), Single threaded blocking
+
+- JS Runtime : The Algorithm of the Runtime features are executed reside inside the Runtime, JS only know how to trigger those function
+
+- The moment JS code encounteres a functionality which is a Runtime feature, all it does is trigger the request to Runtime and do not wait for the execution
