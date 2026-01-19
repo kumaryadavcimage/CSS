@@ -1,0 +1,4 @@
+Create  Of Promise
+
+- new keyword like new Promise
+
