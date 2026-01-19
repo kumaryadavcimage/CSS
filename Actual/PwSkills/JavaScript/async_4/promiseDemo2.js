@@ -10,4 +10,4 @@ function createSyncPromise () {
 }
 
 const response = createSyncPromise();
-console.log("response is ",response)
+console.log("response is ",response);
