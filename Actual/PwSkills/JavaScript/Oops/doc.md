@@ -1,0 +1,2 @@
+- one function go to the outside of memory, but again another function remember the old variable 
+- In normal function this are already define

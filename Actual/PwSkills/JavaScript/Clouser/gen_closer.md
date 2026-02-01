@@ -1,0 +1,1 @@
+- JavaScript remember the variable, just like this is not keep the snapshot you understood
